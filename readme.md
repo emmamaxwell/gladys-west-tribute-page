@@ -1,0 +1,1 @@
+**To learn about Gladys West, visit this tribute page:** https://emmamaxwell.github.io/gladys-west-tribute-page/ 
