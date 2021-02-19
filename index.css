@@ -1,0 +1,109 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: monospace;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-1.2.1');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 50px;
+  margin: 50px auto 0px auto;
+  line-height: 1.5;
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 40px; 
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: normal;
+  margin: 10px 300px 50px 300px;
+  text-align: center;
+}
+
+@media (max-width: 1050px) {
+  h2 {
+     margin: 10px 50px 50px 50px;
+     font-size: 18px;
+  }
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  width: 800px;
+  display: block;
+  margin: auto;
+  border-radius: 3px;
+}
+
+@media (max-width: 850px) {
+  #image {
+     border-radius: 10px;
+  }
+}
+
+#img-caption {
+    color: white;
+    margin: 15px auto 0px auto;
+    font-style: italic;
+    max-width: 725px;
+    font-size: 13px;
+    text-align: center;
+}
+
+#headline {
+  margin: 50px auto 15px auto;
+  font-size: 35px;
+  text-align: center;
+}
+
+ul {
+  max-width: 700px;
+  margin: 10px auto 65px auto;
+  text-align: left;
+  line-height: 1.7; 
+  font-size: 20px;
+}
+
+li {
+  margin: 20px 0 40px 0;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: bold;
+    max-width: 900px;
+    font-size: 30px;
+    margin: 50px auto 50px auto;
+}
+
+#more-info {
+  font-size: 20px;
+  font-style: italic;
+  margin: 75px auto 100px auto;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
